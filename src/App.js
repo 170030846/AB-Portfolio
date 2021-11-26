@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+// import MainContainer from "./MainContainer";
+import MainContainer from "./Maincontainer";
+import About from "./About";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+// import "./colour";
 
 function App() {
+  const [colorTheme, setColorTheme] = useState("light-mode");
+
+  useEffect(() => {
+    const currentThemeColor = localStorage.getItem("theme-color");
+    if (currentThemeColor) {
+      setColorTheme(currentThemeColor);
+    }
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`app ${colorTheme}`}>
+      <MainContainer />
+      <About />
+      <Portfolio />
+      <Contact />
     </div>
   );
 }

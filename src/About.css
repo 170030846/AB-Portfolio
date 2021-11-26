@@ -1,0 +1,50 @@
+:root {
+  --mainColor: #eaeaea;
+  --secondaryColor: #fff;
+
+  --borderColor: #c1c1c1;
+
+  --mainText: black;
+  --secondaryText: #4b5156;
+
+  --themeDotBorder: #24292e;
+
+  --previewBg: rgb(251, 249, 243, 0.8);
+  --previewShadow: #f0ead6;
+
+  --buttonColor: black;
+}
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  padding-bottom: 50px;
+  padding-top: 50px;
+  gap: 100px;
+}
+#skills {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--previewShadow);
+}
+.social-links {
+  display: grid;
+  align-content: center;
+  text-align: center;
+}
+
+#social_img {
+  width: 100%;
+}
+.about-me-title {
+  margin-top: 31.92px;
+  margin-bottom: 31.92px;
+}
+.about-me-info {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.about-me-title-2 {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
