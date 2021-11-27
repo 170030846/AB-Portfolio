@@ -9,17 +9,19 @@ function About() {
           <div className="about-me">
             <h4 className="about-me-title">More about me</h4>
             <p className="about-me-info">
-              Student Peer Mentor - Part of the team that was responsible for
-              curating and finalizing content for the laboratory teaching
-              modules for Object oriented programming course. Also, part of a
-              team of teaching assistants for the aforesaid course.
+              Software Engineer - I'm leading a team that was responsible for
+              the component development which is a piece of All Tax Platform
+              software. I lead the effort to build a feature that allows users
+              to easily keep track of the day-to-day tax area by automating
+              processes and ensuring accuracy. My responsibilities included the
+              initial research, planning, managing the project, and creating
+              components using SAP HANA, other SAP tools.
             </p>
 
             <p className="about-me-info">
-              I led web development team which includes teaching and developing
-              inhouse websites. I build new projects just to tickle my brain and
-              love teaching others how they're made. Now I'm working towards
-              becoming a web developer.
+              Freelance Developer - Helping people turn their ideas into sites
+              that work. Professional,Cost-Effective always and having fun in
+              the process.
             </p>
 
             <hr></hr>
@@ -43,6 +45,7 @@ function About() {
                 <li>React Js</li>
                 <li>React DOM</li>
                 <li>Redux</li>
+                <li>SAP HANA Studio</li>
               </ul>
 
               <ul>
@@ -52,6 +55,7 @@ function About() {
                 <li>HTML/CSS</li>
                 <li>React Context API</li>
                 <li>ES6</li>
+                <li>SAP UI5</li>
               </ul>
             </div>
           </div>

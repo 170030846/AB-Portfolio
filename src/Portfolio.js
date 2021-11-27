@@ -94,7 +94,7 @@ function Portfolio() {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <div className="post">
               <img
                 className="thumbnail"
@@ -119,7 +119,7 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div>
             <div className="post">

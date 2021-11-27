@@ -77,7 +77,7 @@ function MainContainer() {
                 <div id="corner-tr" className="corner"></div>
                 <h3 className="preview__title">What I Do</h3>
                 <p className="preview__info">
-                  I'm a final year Computer Science Student and a Web Developer
+                  I'm a Software Engineer and a Freelance Web Developer
                 </p>
                 <div id="corner-bl" className="corner"></div>
                 <div id="corner-br" className="corner"></div>
