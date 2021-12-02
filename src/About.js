@@ -32,7 +32,7 @@ function About() {
               Fullstack developer with primary focus on React + Firebase:{" "}
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1pYIEjA031ex1yxYLWAgdOZcz_LGCbHox/view"
+                href="https://drive.google.com/file/d/1zFH_o3ibmJk2GcbF98LkpY5WhDGBgFN9/view"
               >
                 Download Resume
               </a>
